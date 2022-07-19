@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+img {
+    width: 375px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 3%;
+    margin-top: 20px;
+}
+
+p, h1, h3{
+    text-align: left;
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: hsl(212, 21%, 14%);
+}
+
+
+#top {
+    color: hsl(228, 12%, 48%);
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 0;
+    font-size: 14.24px;
+}
+
+p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 29px;
+    padding-top: 0;
+}
+
+#main {
+    margin-bottom: 30px;
+}
+
+#discPrice {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: larger;
+    display: inline;
+    font-size: 38px;
+}
+
+#fullPrice {
+    display: inline;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+button {
+    font-size: 14px;
+    border-style: none;
+    border-radius: 4.5%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#button {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1000) {
+    
+
+
+
+
+}
